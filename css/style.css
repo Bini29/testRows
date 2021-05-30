@@ -1,0 +1,45 @@
+:root {
+  --sq-color: blue;
+}
+table tr th {
+  padding: 5px;
+  border: 2px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+tbody td {
+  padding: 5px;
+  border: 1px solid black;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sortBtnList {
+}
+.circleList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.d-list {
+  width: 200px;
+  height: 200px;
+}
+.name {
+  position: relative;
+}
+.name span {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: aqua;
+  right: 5px;
+  top: 10px;
+}
