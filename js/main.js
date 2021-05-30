@@ -1,4 +1,4 @@
-import jsa from 'obj.js';
+import jsa from './obj.js';
 
 
 class Tables {

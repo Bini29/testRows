@@ -1,4 +1,4 @@
-export let jsa = {
+let jsa = {
     "2001": {
         "name": "Товар 1",
         "color": {
@@ -101,3 +101,5 @@ export let jsa = {
         }
     }
 };
+
+export default jsa;
